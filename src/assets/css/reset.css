@@ -1,0 +1,26 @@
+/*
+1. 将盒子大小默认为边框大小。
+2. 重置边框大小和风格后，单独设置边框大小即可显示或调整边框。
+*/
+*,
+::before,
+::after {
+    box-sizing: border-box; /* 1 */
+    border-style: solid; /* 2 */
+    border-width: 0; /* 2 */
+}
+
+body {
+    margin: 0;
+}
+
+/*
+将标签变成div标签的语义化别名。
+*/
+p {
+    margin: 0;
+}
+
+input {
+    padding: 0;
+}

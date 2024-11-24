@@ -1,0 +1,28 @@
+{
+    "name": "vant-project",
+    "version": "0.0.0",
+    "private": true,
+    "type": "module",
+    "scripts": {
+        "dev": "vite",
+        "build": "vite build",
+        "preview": "vite preview"
+    },
+    "dependencies": {
+        "axios": "1.7.7",
+        "vant": "4.9.9",
+        "vue": "3.5.13",
+        "vue-router": "4.4.5"
+    },
+    "devDependencies": {
+        "@iconify/json": "2.2.275",
+        "@unocss/preset-rem-to-px": "0.64.1",
+        "@vant/auto-import-resolver": "1.2.1",
+        "@vitejs/plugin-vue": "5.2.0",
+        "unocss": "0.64.1",
+        "unplugin-auto-import": "0.18.5",
+        "unplugin-vue-components": "0.27.4",
+        "vite": "5.4.11",
+        "vite-plugin-vue-devtools": "7.6.4"
+    }
+}
